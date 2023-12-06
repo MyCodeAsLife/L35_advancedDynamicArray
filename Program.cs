@@ -38,13 +38,13 @@ namespace L35_advancedDynamicArray
                         continue;
 
                     default:
-                        AddToArray(ref numbers, userInput);
+                        AddToArray(numbers, userInput);
                         break;
                 }
             }
         }
 
-        static void AddToArray(ref List<int> array, string userInput)
+        static void AddToArray(List<int> array, string userInput)
         {
             int tempNumber;
 
